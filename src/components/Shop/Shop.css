@@ -6,16 +6,21 @@
 .products-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 45px;
-  margin: 100px 50px;
+  gap: 35px;
+  margin: 80px 50px;
 }
 .cart-container {
   background-color: #ffe0b3;
-  margin-top: 6.2em;
+  margin-top: 5em;
   border-radius: 20px;
 }
-@media screen and (max-width: 1100px) {
+
+@media only screen and (max-width: 688px) {
+  .shop-container {
+    display: inline;
+    gap: 30px;
+  }
   .products-container {
-    grid-template-columns: repeat(2, 1fr);
+    display: inline;
   }
 }

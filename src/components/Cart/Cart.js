@@ -1,6 +1,5 @@
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 
 import "./Cart.css";
 
@@ -15,15 +14,6 @@ const Cart = (props) => {
       alert("Please choose some items");
     }
   };
-
-  // if (item) {
-  //     const randomNum =
-  //     //   const name = item[randomNum].name;
-  //     console.log(randomNum);
-  //     // } else {
-  //     //   console.log("please choose one item");
-  //     // }
-  //   };
 
   return (
     <div className="cart">

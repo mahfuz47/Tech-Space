@@ -30,3 +30,10 @@
   background-color: black;
   transform: scale(1.02);
 }
+
+@media screen and(max-width: 688px) {
+  .answers-box {
+    display: inline-block;
+    margin-top: 2em;
+  }
+}
