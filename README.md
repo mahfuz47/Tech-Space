@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Tech Spece
 
+## [Live Site Link](https://tech-space-47.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
