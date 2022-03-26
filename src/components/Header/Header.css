@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap");
+
+.header {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Oswald", sans-serif;
+  color: #424242;
+  line-height: 15px;
+}
+
+.header-section p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 5px;
+  font-weight: bold;
+  color: orange;
+}

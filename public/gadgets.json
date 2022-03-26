@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "price": 240,
+    "name": "Smart Phone",
+    "image": "https://img.freepik.com/free-photo/athletic-woman-using-her-smartphone_53876-96953.jpg?t=st=1648259376~exp=1648259976~hmac=83691e35c6911424da35d3c1f045640dc078dd30cc63c305adbfb5c40c7b538a&w=74"
+  },
+  {
+    "id": 2,
+    "price": 276,
+    "name": "Smart Watch",
+    "image": "https://img.freepik.com/free-photo/smart-watch-contactless-cashless-payment_53876-97186.jpg?t=st=1648259622~exp=1648260222~hmac=483002e8321a4cadb8d4205071207de83709df0baac6a42f2d6eebfbd4a28207&w=740"
+  },
+  {
+    "id": 3,
+    "price": 174,
+    "name": "Table Clock",
+    "image": "https://img.freepik.com/free-photo/blue-alarm-clock-white-background_1112-483.jpg?t=st=1648259622~exp=1648260222~hmac=21ccf193c906ab98bb803fa5cb4eb838eb780e7142561a45fd1685c55548dc4c&w=740"
+  },
+  {
+    "id": 4,
+    "price": 210,
+    "name": "Smart Lamp",
+    "image": "https://img.freepik.com/free-photo/interior-lamp_74190-151.jpg?t=st=1648260135~exp=1648260735~hmac=67ca5288610c8bea26beab5852d7095ea962244799352c6d8a2aa11d761068c9&w=740"
+  },
+  {
+    "id": 5,
+    "price": 741,
+    "name": "Tablet",
+    "image": "https://img.freepik.com/free-photo/top-view-device-concept-with-copy-space_23-2148812442.jpg?t=st=1648260258~exp=1648260858~hmac=302fd6dc094d2ebfed02d5c849e12203c7e82b58989cf5b3ece93d110c759a74&w=826"
+  },
+  {
+    "id": 6,
+    "price": 1898,
+    "name": "Laptop",
+    "image": "https://img.freepik.com/free-photo/laptop-wooden-table_53876-20635.jpg?t=st=1648260359~exp=1648260959~hmac=7e4ad1770fcc4bac5f1f73c123d248b788c4e67d3fbde5b7796b82fb26b37249&w=740"
+  },
+  {
+    "id": 7,
+    "price": 158,
+    "name": "Headphone",
+    "image": "https://img.freepik.com/free-photo/pink-headphones-wireless-digital-device_53876-96804.jpg?t=st=1648260468~exp=1648261068~hmac=4a8344c0d0880d8ff2cfe0c6adac6d6d8043e9167ddecb68ed59aee9de13073c&w=740"
+  },
+  {
+    "id": 8,
+    "price": 126,
+    "name": "Microphone",
+    "image": "https://img.freepik.com/free-photo/microphone-acoustic-isolation-foam_23-2148695273.jpg?t=st=1648260570~exp=1648261170~hmac=830d373846f68bb18829c7f937cce4a113f7b5dc86e231cc89bbaf9ae0b80272&w=826"
+  },
+  {
+    "id": 9,
+    "price": 890,
+    "name": "Smart Speaker",
+    "image": "https://img.freepik.com/free-photo/smart-speaker-house-control-innovative-technology_53876-102350.jpg?t=st=1648260821~exp=1648261421~hmac=68df5eb4f939ece693c807007b0b3a95f73e7d98ff6366471c5441d717db2b2b&w=740"
+  }
+]
