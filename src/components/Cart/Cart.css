@@ -1,5 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
 .cart {
   position: sticky;
   top: 0;
   padding: 30px 20px;
+}
+.cart h2 {
+  text-align: center;
+  border: 2px solid darkgrey;
+  border-radius: 15px;
+}
+
+.item-box {
+  border: 1px solid lightcoral;
+  border-radius: 20px;
+  padding: 5px 5px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+
+  background-color: lightgray;
+  border: none;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.item-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+.items p {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.item-button {
+  color: gray;
+  padding-left: 10px;
+  background: none;
+  border: none;
+}
+
+.item-button:hover {
+  transform: scale(1.05);
+}
+
+.choose-again-btn {
+  text-align: center;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  background-color: rgb(168, 167, 167);
+  margin: 1em 2em 0 2em;
+}
+.choose-one-btn {
+  text-align: center;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  background-color: rgb(168, 167, 167);
+  margin: 2em;
+}
+.choose-again-btn:hover {
+  transform: scale(1.03);
+  background-color: rgb(110, 110, 110);
+}
+
+.choose-one-btn:hover {
+  transform: scale(1.03);
+  background-color: rgb(110, 110, 110);
 }

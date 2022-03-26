@@ -1,0 +1,32 @@
+.answers-section {
+  margin: 5em 0;
+}
+
+.answers-section h1 {
+  display: flex;
+  justify-content: center;
+}
+.answers-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  padding: 4em;
+}
+
+.card {
+  height: 500px;
+  width: 310px;
+  background-color: rgb(34, 34, 34);
+  border: none;
+  border-radius: 30px;
+  padding: 1em;
+  transition: background-color 0.2s ease, transform 0.5s ease;
+}
+.card h3,
+.card p {
+  color: white;
+}
+.card:hover {
+  background-color: black;
+  transform: scale(1.02);
+}

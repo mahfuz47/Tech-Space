@@ -19,11 +19,3 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and(max-width: 688px) {
-  .products-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .shop-container {
-    display: inline;
-  }
-}
