@@ -11,6 +11,8 @@ const Shop = () => {
     const newCart = [...cart, product];
     if (newCart.length > 4) {
       alert("You can not add more than 4 Items");
+    } else if (cart.find((item) => item.id === product.id)) {
+      alert("You have already selected this item");
     } else {
       setCart(newCart);
     }
@@ -34,7 +36,7 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart} setCart={setCart}></Cart>
       </div>
     </div>
   );

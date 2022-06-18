@@ -4,7 +4,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Cart.css";
 
 const Cart = (props) => {
-  const { cart } = props;
+  const { cart, setCart } = props;
+
+  const handleDeleteItem = (id) => {
+    const proceedDelete = window.confirm("Are you sure to delete?");
+    if (proceedDelete) {
+      const remaining = cart.filter((item) => item.id !== id);
+      setCart(remaining);
+    }
+  };
+  const handleDeleteAll = () => {
+    const proceedDelete = window.confirm("Are you sure to delete?");
+    if (proceedDelete) {
+      const remaining = cart.filter((item) => item === [0]);
+      setCart(remaining);
+    }
+  };
   const chooseOne = () => {
     if (cart.length > 0) {
       let random = Math.round(Math.random(cart) * (cart.length - 1));
@@ -25,13 +40,18 @@ const Cart = (props) => {
               <img className="item-image" src={cartItem.image} alt="" />
             </div>
             <p>{cartItem.name}</p>
-            <button className="item-button">
+            <button
+              onClick={() => handleDeleteItem(cartItem.id)}
+              className="item-button"
+            >
               <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon>
             </button>
           </div>
         ))}
       </div>
-      <button className="choose-again-btn">Choose Again</button>
+      <button onClick={handleDeleteAll} className="choose-again-btn">
+        Choose Again
+      </button>
       <button onClick={() => chooseOne(cart)} className="choose-one-btn">
         Choose 1 for Me
       </button>
